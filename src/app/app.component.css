@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.a-admin {
+    background-color: var(--secondary-color);
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0 5px;
+    margin-left: 35px;
+}
+
+.a-user {
+    background-color: var(--secondary-color);
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+     margin: 0 5px;
+}
+
+
+.a-admin:hover {
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+}
+
+.a-user:hover {
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+}
